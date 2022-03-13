@@ -10,14 +10,15 @@ The main purpose of this boilerplate is to simplify the configuration of Tailwin
 1. Install the dependencies:
 
     ```bash
-    # if you are using npm
+    # Install all the required dependencies
     npm install
     ```
+
 
 2. Start the development server:
 
     ```bash
-    # if you are using npm
+    # Lets get coding
     npm run dev
     ```
 
@@ -28,7 +29,9 @@ The main purpose of this boilerplate is to simplify the configuration of Tailwin
     npm i postcss -D
     ```
 
-4. Open `./index.html` in your editor (VS Code recommended) and start editing!
+
+3. Open `./index.html` in your editor (VS Code recommended) and start editing!
+
 
 ## Optimizing for production
 
@@ -37,13 +40,12 @@ Tailwind CSS output needs to be optimized for the production use. The developmen
 I have configured `purge` option for PostCSS & Tailwind CSS. To build optimized version of your custom CSS, simply run:
 
 ```bash
-# if you are using npm
+# build the optimised version of your code
 npm run build
 ```
 
 For optimising your images, simply run:
 
 ```bash
-# if you are using npm
 npm run build-images
 ```
